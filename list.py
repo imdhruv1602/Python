@@ -97,3 +97,35 @@ print(car)
 car=["audi", "bmw", "toyota", "safari"]
 print(len(car))
 
+
+favourite_places=["Goa", "Udaipur", "Uttarakhand", "Rajasthan", "Vrindavan"]
+print(favourite_places)
+print(sorted(favourite_places))
+print(sorted(favourite_places, reverse=True))
+favourite_places.reverse()
+print(favourite_places)
+favourite_places.reverse()
+print(favourite_places)
+favourite_places.sort()
+print(favourite_places)
+favourite_places.sort(reverse=True)
+print(favourite_places)
+
+# 3-9
+countries=["India", 'USA', "Bangkok"]
+countries.sort()
+print(countries)
+countries.sort(reverse=True)
+print(countries)
+countries.append("Australia")
+print(countries)
+countries.remove("USA")
+print(countries)
+del countries[0]
+print(countries)
+countries.pop()
+print(countries)
+countries.append("Australia")
+print(countries)
+countries.reverse()
+print(countries)
