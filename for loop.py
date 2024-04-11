@@ -71,7 +71,7 @@ print(favourite_places[1:4])
 print("The last three items in the list are: ")
 print(favourite_places[-3:])
 
-4-11
+# 4-11
 my_pizzas=["cheese and corn pizza", "peppriono", "onion"]
 your_pizzas = my_pizzas[:]
 
